@@ -7,11 +7,14 @@
 
 
 #include <avr/io.h>
+#include "library/global.h"
+#include <util/crc16.h>
+#include "library/keypad_ostad.h"
 
 int main(void)
 {
     while(1)
     {
-        //TODO:: Please write your application code 
+         
     }
 }
