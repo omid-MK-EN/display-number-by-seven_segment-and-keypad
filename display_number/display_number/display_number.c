@@ -13,8 +13,16 @@
 
 int main(void)
 {
+	uint8_t num;
+	keypadInit();
+	DDRD = 0xff;
+	PORTD = 0; 
     while(1)
     {
+		if ( (num = keyScan()) != 255)
+		{
+			PORTD = num;
+		}
          
     }
 }

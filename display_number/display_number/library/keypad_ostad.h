@@ -21,7 +21,7 @@
 #define NOKEY 0xff
 #define Delay 3
 
-#define KEYPAD43	0
+#define KEYPAD43	1
 
 void keypadInit(void);
 
